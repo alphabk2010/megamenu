@@ -1,0 +1,145 @@
+/*
+ * jQuery MegaMenu v1.0
+ * http://www.megadrupal.com/flexslider/
+ *
+ * Copyright 2012 MegaDrupal
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: BaoNV
+ */
+
+.mdmegamenu h1,
+.mdmegamenu h2,
+.mdmegamenu h3,
+.mdmegamenu h4,
+.mdmegamenu h5,
+.mdmegamenu h6 {
+    color: #fff;
+}
+
+.mdmegamenu a {
+    text-decoration: none;
+}
+/* horizontal */
+.md-horizontal {
+	background: #fff;
+	border-bottom: 3px solid #333;
+}
+
+.mdmegamenu {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.mdmegamenu .mm-item > a,
+.mdmegamenu .mm-item > a:link,
+.mdmegamenu .mm-item > a:visited {
+	font-size: 12px;
+	line-height: 41px;
+	color: #000;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+
+.mdmegamenu .mm-item > a.with-arrow {
+	padding-right: 26px;
+}
+
+.mdmegamenu .mm-hover > a:hover {
+	color:#444
+}
+
+.mdmegamenu .mm-active > a,
+.mdmegamenu .mm-active > a:link,
+.mdmegamenu .mm-active > a:visited {
+    background: #333;
+    color: #fff;
+}
+
+.mdmegamenu li.mm-hover {
+    background: #000;
+    color: #fff;
+}
+
+.mdmegamenu li.mm-hover > a,
+.mdmegamenu li.mm-hover > a:link,
+.mdmegamenu li.mm-hover > a:visited {
+    color: #fff;
+}
+
+.mdmegamenu .mm-container {
+	background: #000;
+	top: 41px;
+}
+
+.mdmegamenu .mm-container a,
+.mdmegamenu .mm-container a:link,
+.mdmegamenu .mm-container a:visited {
+	color: #ccc;
+	border: none;
+}
+
+.mdmegamenu .mm-sub h3.mm-header {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+/* vertical style */
+.md-vertical.mdmegamenu {
+	height: auto;
+}
+
+.md-vertical.mdmegamenu ul.megamenu {
+	background: #fff;
+	padding: 12px 0;
+}
+
+.md-vertical.mdmegamenu ul.megamenu > li {
+	background: #fff;
+	padding-left: 12px;
+}
+
+.md-vertical.mdmegamenu .mm-item > a {
+	line-height: 18px;
+	padding-left: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.md-vertical.mdmegamenu li.mm-hover > a {
+	background: #000
+}
+
+.md-vertical.mdmegamenu li.mm-hover {
+	background: #000;
+	color: #fff;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* menu item with description */
+.mdmegamenu .mm-item > a span.mm-desc {
+	color: #666;
+	font-size: 11px;
+	line-height: 1.4em;
+	margin-top: -10px;
+	padding-bottom: 10px;
+	text-transform: none;
+}
+
+/* Clearfix */
+.clearfix:after {
+    content: ".";
+    display:block;
+    height:0px;
+    clear:both;
+    visibility:hidden;
+}
+/* Hides from IE-mac \*/
+*:first-child+html .clearfix {
+    height:1%;
+}
+* html .clearfix {
+    height:1%;
+}
+/* End hide from IE-mac */
